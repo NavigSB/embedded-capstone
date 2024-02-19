@@ -57,6 +57,30 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define Button_Three_Pin GPIO_PIN_13
+#define Button_Three_GPIO_Port GPIOC
+#define Button_Two_Pin GPIO_PIN_14
+#define Button_Two_GPIO_Port GPIOC
+#define Button_One_Pin GPIO_PIN_15
+#define Button_One_GPIO_Port GPIOC
+#define Onboard_button_Pin GPIO_PIN_0
+#define Onboard_button_GPIO_Port GPIOA
+#define Mic_In_Pin GPIO_PIN_1
+#define Mic_In_GPIO_Port GPIOA
+#define Audio_Digital_Out_Pin GPIO_PIN_2
+#define Audio_Digital_Out_GPIO_Port GPIOA
+#define Audio_Out_Pin GPIO_PIN_4
+#define Audio_Out_GPIO_Port GPIOA
+#define Green_LED_Pin GPIO_PIN_12
+#define Green_LED_GPIO_Port GPIOD
+#define Orange_LED_Pin GPIO_PIN_13
+#define Orange_LED_GPIO_Port GPIOD
+#define Red_LED_Pin GPIO_PIN_14
+#define Red_LED_GPIO_Port GPIOD
+#define Blue_LED_Pin GPIO_PIN_15
+#define Blue_LED_GPIO_Port GPIOD
+#define Mic_Crystal_Out_Pin GPIO_PIN_8
+#define Mic_Crystal_Out_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
